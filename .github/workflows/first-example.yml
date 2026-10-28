@@ -12,6 +12,6 @@ jobs:
            run: |
             echo "my first github actions steps"
             ls -ltra
-            car readme.md
+            cat readme.md
 
                
