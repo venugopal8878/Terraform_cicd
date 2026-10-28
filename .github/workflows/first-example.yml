@@ -7,9 +7,9 @@ jobs:
         runs-on: ubuntu-26.04
         steps:
          - name: my first workflow job
-           run: echo"my first github actions steps"
+           run: echo "my first github actions steps"
          - name: list the files
-           run: ls -la
+           run: ls 
          - name: read the file
            run: cat readme.MD
 
