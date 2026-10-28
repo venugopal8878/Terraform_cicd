@@ -4,7 +4,7 @@ on: push
 
 jobs: 
     first_job:
-        runs-on: ubuntu-26.04
+        runs-on: ubuntu-latest
         steps:
          - name: my first workflow job
            run: echo "my first github actions steps"
